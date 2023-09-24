@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Footer = () => {
-    const year = new Date();
+const Footer = ({length}) => {
+    //const year = new Date();
   return (
-    <footer>Copyright &copy; {year.getFullYear()}  </footer>
+    // <footer>Copyright &copy; {year.getFullYear()}  </footer>
+    <footer>{length} {length===1? "item":"items"} Pending </footer>
   )
 }
 
