@@ -37,7 +37,7 @@ function decrement(){
 
 
   return (
-    <main> 
+    <> 
         {/* <p className='p'>Let's {name} money</p> 
         <button onClick={namechange}>Click Me</button> */}
 
@@ -51,7 +51,7 @@ function decrement(){
           delet={delet}/>) : (<p>Your List is Empty</p>)} 
         
 
-        </main>)
+        </>)
 }
 
 export default Content
